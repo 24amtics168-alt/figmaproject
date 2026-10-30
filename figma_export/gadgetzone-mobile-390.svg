@@ -1,0 +1,392 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 4600" width="390" height="4600" fill="none">
+  <defs>
+    <linearGradient id="mBgCanvas" x1="0" y1="0" x2="0" y2="4600" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#101828"/>
+      <stop offset="20%" stop-color="#0b0f19"/>
+      <stop offset="50%" stop-color="#101828"/>
+      <stop offset="80%" stop-color="#0b111e"/>
+      <stop offset="100%" stop-color="#080c14"/>
+    </linearGradient>
+
+    <linearGradient id="mBlueGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+
+    <linearGradient id="mCyanGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+
+    <linearGradient id="mCardGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#162032"/>
+      <stop offset="100%" stop-color="#111927"/>
+    </linearGradient>
+
+    <linearGradient id="mBannerGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+
+    <filter id="mShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <style>
+    .font-jakarta { font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif; }
+    .font-inter { font-family: 'Inter', -apple-system, sans-serif; }
+    .bold { font-weight: 700; }
+    .extrabold { font-weight: 800; }
+    .semibold { font-weight: 600; }
+    .regular { font-weight: 400; }
+  </style>
+
+  <!-- Background -->
+  <rect width="390" height="4600" fill="url(#mBgCanvas)"/>
+
+  <!-- 01_Status_Bar & Dynamic Island (Width: 390, Height: 44) -->
+  <g id="01_Mobile_Status_Bar" transform="translate(0, 0)">
+    <rect width="390" height="44" fill="#101828"/>
+    <!-- Dynamic Island -->
+    <rect x="135" y="8" width="120" height="28" rx="14" fill="#000000"/>
+    <circle cx="230" cy="22" r="5" fill="#111827"/>
+    <text x="36" y="27" fill="#ffffff" class="font-jakarta bold" font-size="13">9:41</text>
+    <text x="320" y="27" fill="#ffffff" class="font-jakarta bold" font-size="11">5G 100%</text>
+  </g>
+
+  <!-- 02_Mobile_Header (Width: 390, Height: 64) -->
+  <g id="02_Mobile_Header" transform="translate(0, 44)">
+    <rect width="390" height="64" fill="#101828" fill-opacity="0.95"/>
+    <line x1="0" y1="64" x2="390" y2="64" stroke="#ffffff" stroke-opacity="0.08"/>
+
+    <!-- Brand Logo -->
+    <g transform="translate(20, 14)">
+      <rect width="36" height="36" rx="10" fill="url(#mBlueGrad)"/>
+      <polygon points="18 7, 26 12, 26 24, 18 29, 10 24, 10 12" stroke="#38bdf8" stroke-width="1.8" fill="none"/>
+      <text x="46" y="22" fill="#ffffff" class="font-jakarta extrabold" font-size="18">Gadget<tspan fill="#60a5fa">Zone</tspan></text>
+      <text x="46" y="32" fill="#94a3b8" class="font-jakarta semibold" font-size="8">DIGITAL LIFESTYLE</text>
+    </g>
+
+    <!-- Cart & Hamburger -->
+    <g transform="translate(300, 14)">
+      <!-- Cart -->
+      <g>
+        <rect width="36" height="36" rx="8" fill="#ffffff" fill-opacity="0.06"/>
+        <path d="M11 12 V10 A3 3 0 0 1 17 10 V12 M9 12 H19 L18 22 H10 Z" stroke="#cbd5e1" stroke-width="1.5" fill="none"/>
+        <circle cx="28" cy="8" r="6" fill="#2563eb"/>
+        <text x="28" y="11" fill="#ffffff" class="font-jakarta bold" font-size="8" text-anchor="middle">1</text>
+      </g>
+      <!-- Hamburger Menu -->
+      <g transform="translate(44, 0)">
+        <rect width="36" height="36" rx="8" fill="#ffffff" fill-opacity="0.06"/>
+        <line x1="10" y1="13" x2="26" y2="13" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+        <line x1="10" y1="18" x2="26" y2="18" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+        <line x1="10" y1="23" x2="26" y2="23" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- 03_Mobile_Hero_Section (Width: 390, Height: 700) -->
+  <g id="03_Mobile_Hero" transform="translate(20, 130)">
+    <!-- Promo Badge -->
+    <g transform="translate(45, 0)">
+      <rect width="260" height="30" rx="15" fill="#2563eb" fill-opacity="0.12" stroke="#60a5fa" stroke-opacity="0.3"/>
+      <rect x="4" y="3" width="76" height="24" rx="12" fill="#2563eb"/>
+      <text x="42" y="19" fill="#ffffff" class="font-jakarta bold" font-size="9" text-anchor="middle">FLASH OFFER</text>
+      <text x="92" y="19" fill="#93c5fd" class="font-jakarta semibold" font-size="11">New Arrivals – Up to 30% Off</text>
+    </g>
+
+    <!-- Title -->
+    <text x="175" y="75" fill="#ffffff" class="font-jakarta extrabold" font-size="32" text-anchor="middle">Discover the Future</text>
+    <text x="175" y="115" fill="#ffffff" class="font-jakarta extrabold" font-size="32" text-anchor="middle">of <tspan fill="#60a5fa">Smart Tech.</tspan></text>
+
+    <!-- Subtext -->
+    <text x="175" y="150" fill="#cbd5e1" class="font-inter regular" font-size="14" text-anchor="middle">Explore cutting-edge gadgets and accessories</text>
+    <text x="175" y="172" fill="#cbd5e1" class="font-inter regular" font-size="14" text-anchor="middle">designed to elevate your everyday digital lifestyle.</text>
+
+    <!-- Mobile CTAs Stack -->
+    <g transform="translate(0, 205)">
+      <rect width="350" height="48" rx="12" fill="url(#mBlueGrad)"/>
+      <text x="175" y="30" fill="#ffffff" class="font-jakarta bold" font-size="15" text-anchor="middle">Shop Now →</text>
+    </g>
+    <g transform="translate(0, 265)">
+      <rect width="350" height="48" rx="12" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.16"/>
+      <text x="175" y="30" fill="#ffffff" class="font-jakarta semibold" font-size="14" text-anchor="middle">Explore Products</text>
+    </g>
+
+    <!-- Mobile Trust Stats -->
+    <g transform="translate(0, 340)">
+      <line x1="0" y1="0" x2="350" y2="0" stroke="#ffffff" stroke-opacity="0.1"/>
+      <g transform="translate(30, 24)">
+        <text x="0" y="0" fill="#ffffff" class="font-jakarta extrabold" font-size="20">50k+</text>
+        <text x="0" y="18" fill="#94a3b8" class="font-inter regular" font-size="11">Users</text>
+      </g>
+      <g transform="translate(145, 24)">
+        <text x="0" y="0" fill="#38bdf8" class="font-jakarta extrabold" font-size="20">4.9/5</text>
+        <text x="0" y="18" fill="#94a3b8" class="font-inter regular" font-size="11">Rating</text>
+      </g>
+      <g transform="translate(255, 24)">
+        <text x="0" y="0" fill="#ffffff" class="font-jakarta extrabold" font-size="20">100%</text>
+        <text x="0" y="18" fill="#94a3b8" class="font-inter regular" font-size="11">Genuine</text>
+      </g>
+    </g>
+
+    <!-- Mobile Graphic Box -->
+    <g transform="translate(0, 420)">
+      <rect width="350" height="240" rx="20" fill="#162032" stroke="#ffffff" stroke-opacity="0.1"/>
+      <!-- Watch Centerpiece Vector -->
+      <circle cx="175" cy="120" r="52" fill="#1e293b" stroke="#3b82f6" stroke-width="3"/>
+      <circle cx="175" cy="120" r="44" fill="#090d16"/>
+      <path d="M150 120 H162 L167 108 L172 132 L177 114 H195" stroke="#38bdf8" stroke-width="2" fill="none"/>
+      <text x="175" y="145" fill="#ffffff" class="font-jakarta bold" font-size="11" text-anchor="middle">10:42 AM</text>
+    </g>
+  </g>
+
+  <!-- 04_Mobile_Categories (Width: 390, Height: 540) -->
+  <g id="04_Mobile_Categories" transform="translate(20, 870)">
+    <text x="175" y="0" fill="#60a5fa" class="font-jakarta bold" font-size="12" text-anchor="middle" letter-spacing="1">DEPARTMENTS</text>
+    <text x="175" y="28" fill="#ffffff" class="font-jakarta bold" font-size="24" text-anchor="middle">Curated Categories</text>
+
+    <!-- 2-Column Grid -->
+    <g transform="translate(0, 50)">
+      <!-- Cat 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="168" height="135" rx="16" fill="url(#mCardGrad)" stroke="#ffffff" stroke-opacity="0.08"/>
+        <circle cx="84" cy="45" r="24" fill="#ffffff" fill-opacity="0.04"/>
+        <circle cx="84" cy="45" r="14" stroke="#60a5fa" stroke-width="2" fill="#1e293b"/>
+        <text x="84" y="92" fill="#ffffff" class="font-jakarta bold" font-size="13" text-anchor="middle">Smartwatches</text>
+        <text x="84" y="112" fill="#60a5fa" class="font-jakarta semibold" font-size="11" text-anchor="middle">24 Models →</text>
+      </g>
+
+      <!-- Cat 2 -->
+      <g transform="translate(182, 0)">
+        <rect width="168" height="135" rx="16" fill="url(#mCardGrad)" stroke="#ffffff" stroke-opacity="0.08"/>
+        <circle cx="84" cy="45" r="24" fill="#ffffff" fill-opacity="0.04"/>
+        <path d="M68 50 C68 38, 100 38, 100 50" stroke="#60a5fa" stroke-width="3" fill="none"/>
+        <text x="84" y="92" fill="#ffffff" class="font-jakarta bold" font-size="13" text-anchor="middle">Headphones</text>
+        <text x="84" y="112" fill="#60a5fa" class="font-jakarta semibold" font-size="11" text-anchor="middle">18 Models →</text>
+      </g>
+
+      <!-- Cat 3 -->
+      <g transform="translate(0, 150)">
+        <rect width="168" height="135" rx="16" fill="url(#mCardGrad)" stroke="#ffffff" stroke-opacity="0.08"/>
+        <circle cx="84" cy="45" r="24" fill="#ffffff" fill-opacity="0.04"/>
+        <rect x="76" y="32" width="16" height="26" rx="3" stroke="#60a5fa" stroke-width="1.5" fill="#1e293b"/>
+        <text x="84" y="92" fill="#ffffff" class="font-jakarta bold" font-size="13" text-anchor="middle">Smartphones</text>
+        <text x="84" y="112" fill="#60a5fa" class="font-jakarta semibold" font-size="11" text-anchor="middle">32 Models →</text>
+      </g>
+
+      <!-- Cat 4 -->
+      <g transform="translate(182, 150)">
+        <rect width="168" height="135" rx="16" fill="url(#mCardGrad)" stroke="#ffffff" stroke-opacity="0.08"/>
+        <circle cx="84" cy="45" r="24" fill="#ffffff" fill-opacity="0.04"/>
+        <rect x="74" y="32" width="20" height="26" rx="5" stroke="#60a5fa" stroke-width="1.5" fill="#1e293b"/>
+        <text x="84" y="92" fill="#ffffff" class="font-jakarta bold" font-size="13" text-anchor="middle">BT Speakers</text>
+        <text x="84" y="112" fill="#60a5fa" class="font-jakarta semibold" font-size="11" text-anchor="middle">15 Models →</text>
+      </g>
+
+      <!-- Cat 5 -->
+      <g transform="translate(0, 300)">
+        <rect width="168" height="135" rx="16" fill="url(#mCardGrad)" stroke="#ffffff" stroke-opacity="0.08"/>
+        <circle cx="84" cy="45" r="24" fill="#ffffff" fill-opacity="0.04"/>
+        <rect x="70" y="34" width="28" height="18" rx="2" stroke="#60a5fa" stroke-width="1.5" fill="#1e293b"/>
+        <text x="84" y="92" fill="#ffffff" class="font-jakarta bold" font-size="13" text-anchor="middle">Laptops</text>
+        <text x="84" y="112" fill="#60a5fa" class="font-jakarta semibold" font-size="11" text-anchor="middle">12 Models →</text>
+      </g>
+
+      <!-- Cat 6 -->
+      <g transform="translate(182, 300)">
+        <rect width="168" height="135" rx="16" fill="url(#mCardGrad)" stroke="#ffffff" stroke-opacity="0.08"/>
+        <circle cx="84" cy="45" r="24" fill="#ffffff" fill-opacity="0.04"/>
+        <path d="M72 40 C72 35, 96 35, 96 40 L90 52 H78 Z" stroke="#60a5fa" stroke-width="1.5" fill="#1e293b"/>
+        <text x="84" y="92" fill="#ffffff" class="font-jakarta bold" font-size="13" text-anchor="middle">Gaming Gear</text>
+        <text x="84" y="112" fill="#60a5fa" class="font-jakarta semibold" font-size="11" text-anchor="middle">40+ Items →</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- 05_Mobile_Featured_Products (Width: 390, Height: 1650) -->
+  <g id="05_Mobile_Products" transform="translate(20, 1370)">
+    <text x="175" y="0" fill="#60a5fa" class="font-jakarta bold" font-size="12" text-anchor="middle" letter-spacing="1">FLAGSHIP TECH</text>
+    <text x="175" y="28" fill="#ffffff" class="font-jakarta bold" font-size="24" text-anchor="middle">Featured Products</text>
+
+    <!-- Product 1 -->
+    <g transform="translate(0, 50)" filter="url(#mShadow)">
+      <rect width="350" height="370" rx="20" fill="url(#mCardGrad)" stroke="#ffffff" stroke-opacity="0.08"/>
+      <rect width="350" height="160" rx="20" fill="#101828"/>
+      <circle cx="175" cy="80" r="36" fill="#1e293b" stroke="#3b82f6" stroke-width="2.5"/>
+      <g transform="translate(16, 180)">
+        <text x="0" y="0" fill="#fbbf24" class="font-inter bold" font-size="12">★★★★★ <tspan fill="#ffffff">4.9</tspan> <tspan fill="#64748b">(1,248)</tspan></text>
+        <text x="0" y="26" fill="#ffffff" class="font-jakarta bold" font-size="17">Smartwatch Pro</text>
+        <text x="0" y="50" fill="#94a3b8" class="font-inter regular" font-size="12">AMOLED, ECG monitoring &amp; 14-day battery.</text>
+        <g transform="translate(0, 85)">
+          <text x="0" y="16" fill="#ffffff" class="font-jakarta extrabold" font-size="20">$249.99</text>
+          <text x="90" y="16" fill="#64748b" class="font-inter regular" font-size="12" text-decoration="line-through">$299.99</text>
+          <g transform="translate(195, -6)">
+            <rect width="122" height="38" rx="10" fill="url(#mBlueGrad)"/>
+            <text x="61" y="23" fill="#ffffff" class="font-jakarta semibold" font-size="12" text-anchor="middle">+ Add to Cart</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- Product 2 -->
+    <g transform="translate(0, 440)" filter="url(#mShadow)">
+      <rect width="350" height="370" rx="20" fill="url(#mCardGrad)" stroke="#ffffff" stroke-opacity="0.08"/>
+      <rect width="350" height="160" rx="20" fill="#101828"/>
+      <path d="M140 85 C140 55, 210 55, 210 85" stroke="#38bdf8" stroke-width="5" fill="none"/>
+      <g transform="translate(16, 180)">
+        <text x="0" y="0" fill="#fbbf24" class="font-inter bold" font-size="12">★★★★★ <tspan fill="#ffffff">4.8</tspan> <tspan fill="#64748b">(982)</tspan></text>
+        <text x="0" y="26" fill="#ffffff" class="font-jakarta bold" font-size="17">Wireless ANC Headphones</text>
+        <text x="0" y="50" fill="#94a3b8" class="font-inter regular" font-size="12">Hybrid active noise cancellation, 40h battery.</text>
+        <g transform="translate(0, 85)">
+          <text x="0" y="16" fill="#ffffff" class="font-jakarta extrabold" font-size="20">$279.99</text>
+          <text x="90" y="16" fill="#64748b" class="font-inter regular" font-size="12" text-decoration="line-through">$349.99</text>
+          <g transform="translate(195, -6)">
+            <rect width="122" height="38" rx="10" fill="url(#mBlueGrad)"/>
+            <text x="61" y="23" fill="#ffffff" class="font-jakarta semibold" font-size="12" text-anchor="middle">+ Add to Cart</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- Product 3 -->
+    <g transform="translate(0, 830)" filter="url(#mShadow)">
+      <rect width="350" height="370" rx="20" fill="url(#mCardGrad)" stroke="#ffffff" stroke-opacity="0.08"/>
+      <rect width="350" height="160" rx="20" fill="#101828"/>
+      <rect x="157" y="55" width="36" height="55" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+      <g transform="translate(16, 180)">
+        <text x="0" y="0" fill="#fbbf24" class="font-inter bold" font-size="12">★★★★★ <tspan fill="#ffffff">4.7</tspan> <tspan fill="#64748b">(754)</tspan></text>
+        <text x="0" y="26" fill="#ffffff" class="font-jakarta bold" font-size="17">Bluetooth Speaker X</text>
+        <text x="0" y="50" fill="#94a3b8" class="font-inter regular" font-size="12">360° spatial acoustics, IPX7 waterproof.</text>
+        <g transform="translate(0, 85)">
+          <text x="0" y="16" fill="#ffffff" class="font-jakarta extrabold" font-size="20">$119.99</text>
+          <text x="90" y="16" fill="#64748b" class="font-inter regular" font-size="12" text-decoration="line-through">$149.99</text>
+          <g transform="translate(195, -6)">
+            <rect width="122" height="38" rx="10" fill="url(#mBlueGrad)"/>
+            <text x="61" y="23" fill="#ffffff" class="font-jakarta semibold" font-size="12" text-anchor="middle">+ Add to Cart</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- Product 4 -->
+    <g transform="translate(0, 1220)" filter="url(#mShadow)">
+      <rect width="350" height="370" rx="20" fill="url(#mCardGrad)" stroke="#ffffff" stroke-opacity="0.08"/>
+      <rect width="350" height="160" rx="20" fill="#101828"/>
+      <path d="M162 65 C162 55, 188 55, 188 65 L188 100 C188 110, 162 110, 162 100 Z" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+      <g transform="translate(16, 180)">
+        <text x="0" y="0" fill="#fbbf24" class="font-inter bold" font-size="12">★★★★★ <tspan fill="#ffffff">4.9</tspan> <tspan fill="#64748b">(1,510)</tspan></text>
+        <text x="0" y="26" fill="#ffffff" class="font-jakarta bold" font-size="17">Premium Gaming Mouse</text>
+        <text x="0" y="50" fill="#94a3b8" class="font-inter regular" font-size="12">26,000 DPI sensor, ultra-light 58g chassis.</text>
+        <g transform="translate(0, 85)">
+          <text x="0" y="16" fill="#ffffff" class="font-jakarta extrabold" font-size="20">$69.99</text>
+          <text x="80" y="16" fill="#64748b" class="font-inter regular" font-size="12" text-decoration="line-through">$89.99</text>
+          <g transform="translate(195, -6)">
+            <rect width="122" height="38" rx="10" fill="url(#mBlueGrad)"/>
+            <text x="61" y="23" fill="#ffffff" class="font-jakarta semibold" font-size="12" text-anchor="middle">+ Add to Cart</text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- 06_Mobile_Why_Choose_Us (Width: 390, Height: 720) -->
+  <g id="06_Mobile_Why_Us" transform="translate(20, 3050)">
+    <text x="175" y="0" fill="#60a5fa" class="font-jakarta bold" font-size="12" text-anchor="middle" letter-spacing="1">WHY GADGETZONE</text>
+    <text x="175" y="28" fill="#ffffff" class="font-jakarta bold" font-size="24" text-anchor="middle">Why Shop With Us?</text>
+
+    <g transform="translate(0, 50)">
+      <!-- 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="350" height="130" rx="16" fill="url(#mCardGrad)" stroke="#ffffff" stroke-opacity="0.08"/>
+        <rect x="18" y="20" width="46" height="46" rx="12" fill="#2563eb" fill-opacity="0.2"/>
+        <path d="M34 44 L40 50 L48 40" stroke="#38bdf8" stroke-width="2" fill="none"/>
+        <text x="76" y="38" fill="#ffffff" class="font-jakarta bold" font-size="15">Premium Quality Products</text>
+        <text x="76" y="58" fill="#94a3b8" class="font-inter regular" font-size="12">12-point inspection with official warranty.</text>
+      </g>
+      <!-- 2 -->
+      <g transform="translate(0, 150)">
+        <rect width="350" height="130" rx="16" fill="url(#mCardGrad)" stroke="#ffffff" stroke-opacity="0.08"/>
+        <rect x="18" y="20" width="46" height="46" rx="12" fill="#2563eb" fill-opacity="0.2"/>
+        <polygon points="41 32, 33 44, 40 44, 36 54, 47 40, 40 40" fill="#38bdf8"/>
+        <text x="76" y="38" fill="#ffffff" class="font-jakarta bold" font-size="15">Fast and Free Delivery</text>
+        <text x="76" y="58" fill="#94a3b8" class="font-inter regular" font-size="12">Free express delivery on orders over $50.</text>
+      </g>
+      <!-- 3 -->
+      <g transform="translate(0, 300)">
+        <rect width="350" height="130" rx="16" fill="url(#mCardGrad)" stroke="#ffffff" stroke-opacity="0.08"/>
+        <rect x="18" y="20" width="46" height="46" rx="12" fill="#2563eb" fill-opacity="0.2"/>
+        <rect x="34" y="40" width="14" height="10" rx="2" stroke="#38bdf8" stroke-width="1.5" fill="none"/>
+        <text x="76" y="38" fill="#ffffff" class="font-jakarta bold" font-size="15">Secure Online Payments</text>
+        <text x="76" y="58" fill="#94a3b8" class="font-inter regular" font-size="12">256-bit SSL encrypted checkout.</text>
+      </g>
+      <!-- 4 -->
+      <g transform="translate(0, 450)">
+        <rect width="350" height="130" rx="16" fill="url(#mCardGrad)" stroke="#ffffff" stroke-opacity="0.08"/>
+        <rect x="18" y="20" width="46" height="46" rx="12" fill="#2563eb" fill-opacity="0.2"/>
+        <circle cx="41" cy="43" r="8" stroke="#38bdf8" stroke-width="1.5" fill="none"/>
+        <text x="76" y="38" fill="#ffffff" class="font-jakarta bold" font-size="15">Easy Returns &amp; Support</text>
+        <text x="76" y="58" fill="#94a3b8" class="font-inter regular" font-size="12">30-day returns with 24/7 assistance.</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- 07_Mobile_Promotional_Banner (Width: 390, Height: 320) -->
+  <g id="07_Mobile_Banner" transform="translate(20, 3700)">
+    <rect width="350" height="280" rx="20" fill="url(#mBannerGrad)" stroke="#60a5fa" stroke-opacity="0.3"/>
+    <g transform="translate(24, 24)">
+      <text x="0" y="24" fill="#ffffff" class="font-jakarta extrabold" font-size="22">Upgrade Your Tech.</text>
+      <text x="0" y="50" fill="#38bdf8" class="font-jakarta extrabold" font-size="22">Upgrade Your Life.</text>
+      <text x="0" y="78" fill="#cbd5e1" class="font-inter regular" font-size="12">Save up to 40% on smart gadget bundles.</text>
+
+      <!-- Countdown -->
+      <g transform="translate(0, 100)">
+        <rect width="65" height="42" rx="8" fill="#0f172a" fill-opacity="0.8"/>
+        <text x="32" y="24" fill="#38bdf8" class="font-jakarta bold" font-size="16" text-anchor="middle">02 D</text>
+        <rect x="75" y="0" width="65" height="42" rx="8" fill="#0f172a" fill-opacity="0.8"/>
+        <text x="107" y="24" fill="#38bdf8" class="font-jakarta bold" font-size="16" text-anchor="middle">14 H</text>
+        <rect x="150" y="0" width="65" height="42" rx="8" fill="#0f172a" fill-opacity="0.8"/>
+        <text x="182" y="24" fill="#38bdf8" class="font-jakarta bold" font-size="16" text-anchor="middle">45 M</text>
+        <rect x="225" y="0" width="65" height="42" rx="8" fill="#0f172a" fill-opacity="0.8"/>
+        <text x="257" y="24" fill="#38bdf8" class="font-jakarta bold" font-size="16" text-anchor="middle">30 S</text>
+      </g>
+
+      <g transform="translate(0, 165)">
+        <rect width="302" height="46" rx="12" fill="url(#mCyanGrad)"/>
+        <text x="151" y="28" fill="#ffffff" class="font-jakarta bold" font-size="14" text-anchor="middle">Explore Exclusive Deals →</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- 08_Mobile_Newsletter (Width: 390, Height: 240) -->
+  <g id="08_Mobile_Newsletter" transform="translate(20, 4030)">
+    <rect width="350" height="200" rx="20" fill="#151e33" stroke="#ffffff" stroke-opacity="0.1"/>
+    <g transform="translate(16, 24)">
+      <text x="159" y="16" fill="#ffffff" class="font-jakarta bold" font-size="18" text-anchor="middle">Stay Updated with Tech!</text>
+      <text x="159" y="38" fill="#94a3b8" class="font-inter regular" font-size="11" text-anchor="middle">Get new deals + $20 welcome voucher.</text>
+      <rect x="0" y="60" width="318" height="42" rx="10" fill="#0f172a" stroke="#ffffff" stroke-opacity="0.15"/>
+      <text x="16" y="86" fill="#64748b" class="font-inter regular" font-size="12">Enter your email address...</text>
+      <rect x="0" y="112" width="318" height="42" rx="10" fill="url(#mBlueGrad)"/>
+      <text x="159" y="138" fill="#ffffff" class="font-jakarta bold" font-size="13" text-anchor="middle">Subscribe Now</text>
+    </g>
+  </g>
+
+  <!-- 09_Mobile_Footer (Width: 390, Height: 300) -->
+  <g id="09_Mobile_Footer" transform="translate(0, 4300)">
+    <rect width="390" height="300" fill="#080c14"/>
+    <line x1="0" y1="0" x2="390" y2="0" stroke="#ffffff" stroke-opacity="0.08"/>
+    <g transform="translate(24, 30)">
+      <text x="0" y="20" fill="#ffffff" class="font-jakarta extrabold" font-size="18">Gadget<tspan fill="#60a5fa">Zone</tspan></text>
+      <text x="0" y="44" fill="#94a3b8" class="font-inter regular" font-size="12">Next-generation electronics and smart wearables.</text>
+      <text x="0" y="80" fill="#cbd5e1" class="font-jakarta semibold" font-size="13">Support: support@gadgetzone.tech</text>
+      <text x="0" y="104" fill="#cbd5e1" class="font-jakarta semibold" font-size="13">Phone: +1 (800) 423-4389 (24/7)</text>
+      <line x1="0" y1="140" x2="342" y2="140" stroke="#ffffff" stroke-opacity="0.08"/>
+      <text x="0" y="170" fill="#64748b" class="font-inter regular" font-size="11">&#169; 2026 GadgetZone Inc. All rights reserved.</text>
+      <text x="0" y="196" fill="#cbd5e1" class="font-jakarta bold" font-size="10">APPLE PAY • GOOGLE PAY • VISA • STRIPE</text>
+    </g>
+  </g>
+
+</svg>

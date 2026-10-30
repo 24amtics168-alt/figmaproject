@@ -1,0 +1,236 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" fill="none">
+  <defs>
+    <linearGradient id="scBg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#080c14"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#080c14"/>
+    </linearGradient>
+
+    <radialGradient id="scGlow1" cx="30%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="scGlow2" cx="75%" cy="60%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="scBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+
+    <filter id="scShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="25" stdDeviation="30" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+
+  <style>
+    .font-jakarta { font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif; }
+    .bold { font-weight: 700; }
+    .extrabold { font-weight: 800; }
+    .semibold { font-weight: 600; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#scBg)"/>
+  <rect width="1600" height="900" fill="url(#scGlow1)"/>
+  <rect width="1600" height="900" fill="url(#scGlow2)"/>
+
+  <!-- Subtle Cyber Grid -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="180" x2="1600" y2="180"/>
+    <line x1="0" y1="360" x2="1600" y2="360"/>
+    <line x1="0" y1="540" x2="1600" y2="540"/>
+    <line x1="0" y1="720" x2="1600" y2="720"/>
+    <line x1="200" y1="0" x2="200" y2="900"/>
+    <line x1="400" y1="0" x2="400" y2="900"/>
+    <line x1="600" y1="0" x2="600" y2="900"/>
+    <line x1="800" y1="0" x2="800" y2="900"/>
+    <line x1="1000" y1="0" x2="1000" y2="900"/>
+    <line x1="1200" y1="0" x2="1200" y2="900"/>
+    <line x1="1400" y1="0" x2="1400" y2="900"/>
+  </g>
+
+  <!-- Title & Tagline at Top -->
+  <g transform="translate(80, 70)">
+    <g transform="translate(0, 0)">
+      <rect width="40" height="40" rx="12" fill="url(#scBlue)"/>
+      <polygon points="20 8, 30 14, 30 26, 20 32, 10 26, 10 14" stroke="#38bdf8" stroke-width="2" fill="none"/>
+    </g>
+    <text x="52" y="28" fill="#ffffff" class="font-jakarta extrabold" font-size="28">Gadget<tspan fill="#60a5fa">Zone</tspan></text>
+    <text x="210" y="28" fill="#94a3b8" class="font-jakarta semibold" font-size="14">— Upgrade Your Digital Lifestyle</text>
+    <rect x="1310" y="6" width="130" height="32" rx="16" fill="#2563eb" fill-opacity="0.15" stroke="#60a5fa" stroke-opacity="0.4"/>
+    <text x="1375" y="26" fill="#93c5fd" class="font-jakarta bold" font-size="11" text-anchor="middle">FIGMA SHOWCASE</text>
+  </g>
+
+  <!-- Desktop Browser Window Mockup (Left / Center) -->
+  <g transform="translate(80, 140)" filter="url(#scShadow)">
+    <rect width="1020" height="690" rx="18" fill="#101828" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1.5"/>
+    <!-- Window Bar -->
+    <rect width="1020" height="40" rx="18" fill="#162032"/>
+    <rect x="0" y="22" width="1020" height="18" fill="#162032"/>
+    <line x1="0" y1="40" x2="1020" y2="40" stroke="#ffffff" stroke-opacity="0.08"/>
+    <!-- Dots -->
+    <circle cx="24" cy="20" r="5" fill="#ef4444"/>
+    <circle cx="40" cy="20" r="5" fill="#f59e0b"/>
+    <circle cx="56" cy="20" r="5" fill="#10b981"/>
+    <!-- Address Bar -->
+    <rect x="240" y="10" width="540" height="20" rx="6" fill="#0b0f19" stroke="#ffffff" stroke-opacity="0.06"/>
+    <text x="510" y="24" fill="#94a3b8" class="font-jakarta semibold" font-size="10" text-anchor="middle">https://gadgetzone.tech — 1440px Desktop View</text>
+
+    <!-- Embedded Scaled Desktop Preview Area -->
+    <g transform="translate(0, 40)">
+      <!-- Mock Navigation -->
+      <rect width="1020" height="52" fill="#101828"/>
+      <line x1="0" y1="52" x2="1020" y2="52" stroke="#ffffff" stroke-opacity="0.06"/>
+      <text x="30" y="32" fill="#ffffff" class="font-jakarta bold" font-size="15">Gadget<tspan fill="#60a5fa">Zone</tspan></text>
+      <text x="360" y="32" fill="#ffffff" class="font-jakarta semibold" font-size="12">Home</text>
+      <text x="430" y="32" fill="#94a3b8" class="font-jakarta regular" font-size="12">Products</text>
+      <text x="510" y="32" fill="#94a3b8" class="font-jakarta regular" font-size="12">Categories</text>
+      <text x="600" y="32" fill="#94a3b8" class="font-inter regular" font-size="12">Deals</text>
+      <rect x="880" y="12" width="105" height="28" rx="6" fill="url(#scBlue)"/>
+      <text x="932" y="30" fill="#ffffff" class="font-jakarta semibold" font-size="11" text-anchor="middle">Login / Sign Up</text>
+
+      <!-- Mock Hero -->
+      <g transform="translate(40, 80)">
+        <rect width="180" height="24" rx="12" fill="#2563eb" fill-opacity="0.15" stroke="#60a5fa" stroke-opacity="0.3"/>
+        <text x="90" y="16" fill="#93c5fd" class="font-jakarta bold" font-size="10" text-anchor="middle">New Arrivals – Up to 30% Off</text>
+
+        <text x="0" y="65" fill="#ffffff" class="font-jakarta extrabold" font-size="34">Discover the <tspan fill="#60a5fa">Future</tspan> of</text>
+        <text x="0" y="108" fill="#ffffff" class="font-jakarta extrabold" font-size="34">Smart <tspan fill="#06b6d4">Technology.</tspan></text>
+
+        <text x="0" y="145" fill="#cbd5e1" class="font-jakarta regular" font-size="12">Explore the latest gadgets and accessories designed to make</text>
+        <text x="0" y="165" fill="#cbd5e1" class="font-jakarta regular" font-size="12">your everyday life smarter. Engineered for peak ergonomics.</text>
+
+        <!-- CTA Buttons -->
+        <g transform="translate(0, 195)">
+          <rect width="110" height="38" rx="8" fill="url(#scBlue)"/>
+          <text x="55" y="24" fill="#ffffff" class="font-jakarta bold" font-size="12" text-anchor="middle">Shop Now →</text>
+
+          <rect x="125" y="0" width="130" height="38" rx="8" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.2"/>
+          <text x="190" y="24" fill="#ffffff" class="font-jakarta semibold" font-size="12" text-anchor="middle">Explore Products</text>
+        </g>
+
+        <!-- Stats -->
+        <g transform="translate(0, 275)">
+          <text x="0" y="0" fill="#ffffff" class="font-jakarta bold" font-size="18">50k+</text>
+          <text x="0" y="16" fill="#94a3b8" class="font-jakarta regular" font-size="10">Active Users</text>
+          <text x="100" y="0" fill="#38bdf8" class="font-jakarta bold" font-size="18">4.9/5</text>
+          <text x="100" y="16" fill="#94a3b8" class="font-jakarta regular" font-size="10">Avg Review</text>
+        </g>
+      </g>
+
+      <!-- Mock Hero Graphic on right side of Desktop window -->
+      <g transform="translate(560, 60)">
+        <rect width="410" height="320" rx="16" fill="#162032" stroke="#ffffff" stroke-opacity="0.1"/>
+        <circle cx="205" cy="160" r="55" fill="#1e293b" stroke="#3b82f6" stroke-width="3"/>
+        <circle cx="205" cy="160" r="46" fill="#090d16"/>
+        <path d="M185 160 H195 L200 148 L205 170 L210 155 H225" stroke="#38bdf8" stroke-width="2" fill="none"/>
+        <text x="205" y="195" fill="#ffffff" class="font-jakarta bold" font-size="10" text-anchor="middle">10:42 AM</text>
+        <!-- Floating tag -->
+        <rect x="230" y="20" width="160" height="26" rx="8" fill="#0f172a" stroke="#ffffff" stroke-opacity="0.15"/>
+        <circle cx="242" cy="33" r="3" fill="#10b981"/>
+        <text x="252" y="36" fill="#ffffff" class="font-jakarta bold" font-size="9">Active Noise Cancel 45dB</text>
+      </g>
+
+      <!-- Mock 4 Product Cards Grid at bottom of Desktop window -->
+      <g transform="translate(40, 420)">
+        <!-- Card 1 -->
+        <rect width="216" height="150" rx="12" fill="#162032" stroke="#ffffff" stroke-opacity="0.08"/>
+        <circle cx="108" cy="45" r="24" fill="#0f172a" stroke="#3b82f6" stroke-width="1.5"/>
+        <text x="16" y="94" fill="#ffffff" class="font-jakarta bold" font-size="11">Smartwatch Pro</text>
+        <text x="16" y="110" fill="#38bdf8" class="font-jakarta bold" font-size="11">$249.99</text>
+        <rect x="130" y="98" width="70" height="24" rx="6" fill="url(#scBlue)"/>
+        <text x="165" y="114" fill="#ffffff" class="font-jakarta bold" font-size="9" text-anchor="middle">+ Add</text>
+
+        <!-- Card 2 -->
+        <g transform="translate(240, 0)">
+          <rect width="216" height="150" rx="12" fill="#162032" stroke="#ffffff" stroke-opacity="0.08"/>
+          <path d="M96 50 C96 35, 120 35, 120 50" stroke="#38bdf8" stroke-width="3" fill="none"/>
+          <text x="16" y="94" fill="#ffffff" class="font-jakarta bold" font-size="11">Wireless Headphones</text>
+          <text x="16" y="110" fill="#38bdf8" class="font-jakarta bold" font-size="11">$279.99</text>
+          <rect x="130" y="98" width="70" height="24" rx="6" fill="url(#scBlue)"/>
+          <text x="165" y="114" fill="#ffffff" class="font-jakarta bold" font-size="9" text-anchor="middle">+ Add</text>
+        </g>
+
+        <!-- Card 3 -->
+        <g transform="translate(480, 0)">
+          <rect width="216" height="150" rx="12" fill="#162032" stroke="#ffffff" stroke-opacity="0.08"/>
+          <rect x="98" y="32" width="20" height="32" rx="6" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5"/>
+          <text x="16" y="94" fill="#ffffff" class="font-jakarta bold" font-size="11">Bluetooth Speaker X</text>
+          <text x="16" y="110" fill="#38bdf8" class="font-jakarta bold" font-size="11">$119.99</text>
+          <rect x="130" y="98" width="70" height="24" rx="6" fill="url(#scBlue)"/>
+          <text x="165" y="114" fill="#ffffff" class="font-jakarta bold" font-size="9" text-anchor="middle">+ Add</text>
+        </g>
+
+        <!-- Card 4 -->
+        <g transform="translate(720, 0)">
+          <rect width="216" height="150" rx="12" fill="#162032" stroke="#ffffff" stroke-opacity="0.08"/>
+          <path d="M100 40 C100 32, 116 32, 116 40 L116 58 C116 66, 100 66, 100 58 Z" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5"/>
+          <text x="16" y="94" fill="#ffffff" class="font-jakarta bold" font-size="11">Gaming Mouse</text>
+          <text x="16" y="110" fill="#38bdf8" class="font-jakarta bold" font-size="11">$69.99</text>
+          <rect x="130" y="98" width="70" height="24" rx="6" fill="url(#scBlue)"/>
+          <text x="165" y="114" fill="#ffffff" class="font-jakarta bold" font-size="9" text-anchor="middle">+ Add</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Mobile Device Mockup Floating on Right (Width: 320, Height: 650) -->
+  <g transform="translate(1180, 160)" filter="url(#scShadow)">
+    <!-- Phone Chassis with Metallic Bezel -->
+    <rect width="320" height="650" rx="46" fill="#1e293b" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="3"/>
+    <rect x="8" y="8" width="304" height="634" rx="38" fill="#101828"/>
+
+    <!-- Dynamic Island -->
+    <rect x="110" y="18" width="100" height="24" rx="12" fill="#000000"/>
+    <circle cx="185" cy="30" r="4" fill="#111827"/>
+    <text x="32" y="34" fill="#ffffff" class="font-jakarta bold" font-size="10">9:41</text>
+    <text x="260" y="34" fill="#ffffff" class="font-jakarta bold" font-size="9">5G</text>
+
+    <!-- Mobile Header -->
+    <g transform="translate(20, 56)">
+      <text x="0" y="18" fill="#ffffff" class="font-jakarta bold" font-size="14">Gadget<tspan fill="#60a5fa">Zone</tspan></text>
+      <!-- Cart -->
+      <circle cx="230" cy="12" r="12" fill="#ffffff" fill-opacity="0.08"/>
+      <!-- Menu -->
+      <line x1="255" y1="8" x2="275" y2="8" stroke="#ffffff" stroke-width="1.8"/>
+      <line x1="255" y1="13" x2="275" y2="13" stroke="#ffffff" stroke-width="1.8"/>
+      <line x1="255" y1="18" x2="275" y2="18" stroke="#ffffff" stroke-width="1.8"/>
+    </g>
+    <line x1="8" y1="88" x2="312" y2="88" stroke="#ffffff" stroke-opacity="0.06"/>
+
+    <!-- Mobile Hero Copy -->
+    <g transform="translate(20, 105)">
+      <rect width="180" height="22" rx="11" fill="#2563eb" fill-opacity="0.15" stroke="#60a5fa" stroke-opacity="0.4"/>
+      <text x="90" y="15" fill="#93c5fd" class="font-jakarta bold" font-size="9" text-anchor="middle">Up to 30% Off Deals</text>
+
+      <text x="140" y="52" fill="#ffffff" class="font-jakarta extrabold" font-size="20" text-anchor="middle">Discover Future Tech</text>
+
+      <text x="140" y="76" fill="#cbd5e1" class="font-jakarta regular" font-size="10" text-anchor="middle">Smart wearables, studio audio, and setup gear.</text>
+
+      <!-- Full-Width Mobile CTA -->
+      <rect x="0" y="96" width="280" height="36" rx="10" fill="url(#scBlue)"/>
+      <text x="140" y="119" fill="#ffffff" class="font-jakarta bold" font-size="12" text-anchor="middle">Shop Now →</text>
+
+      <!-- Mini Watch Graphic -->
+      <rect x="0" y="148" width="280" height="135" rx="14" fill="#162032" stroke="#ffffff" stroke-opacity="0.1"/>
+      <circle cx="140" cy="215" r="32" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+      <circle cx="140" cy="215" r="26" fill="#090d16"/>
+      <text x="140" y="220" fill="#38bdf8" class="font-jakarta bold" font-size="8" text-anchor="middle">PRO GEN 4</text>
+
+      <!-- Mobile Product Card -->
+      <g transform="translate(0, 300)">
+        <rect width="280" height="150" rx="14" fill="#162032" stroke="#ffffff" stroke-opacity="0.1"/>
+        <text x="16" y="28" fill="#fbbf24" class="font-jakarta bold" font-size="10">★★★★★ 4.9</text>
+        <text x="16" y="52" fill="#ffffff" class="font-jakarta bold" font-size="14">Smartwatch Pro</text>
+        <text x="16" y="70" fill="#94a3b8" class="font-jakarta regular" font-size="10">AMOLED, ECG + GPS, 14-day battery</text>
+        <text x="16" y="114" fill="#ffffff" class="font-jakarta extrabold" font-size="16">$249.99</text>
+        <rect x="160" y="95" width="105" height="32" rx="8" fill="url(#scBlue)"/>
+        <text x="212" y="115" fill="#ffffff" class="font-jakarta bold" font-size="11" text-anchor="middle">+ Add to Cart</text>
+      </g>
+    </g>
+  </g>
+</svg>
