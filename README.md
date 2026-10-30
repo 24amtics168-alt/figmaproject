@@ -215,49 +215,6 @@ figmaproject/
 
 ---
 
-## 🎨 How to Use in Figma
+## Figma Design Link
 
-1. **Direct Drag & Drop**:
-   - Open [Figma](https://figma.com) and create a new design file.
-   - Drag and drop `gadgetzone-desktop-1440.svg` from [`figma_export/`](./figma_export/) onto the canvas to get the full 1440px Desktop frame.
-   - Drag and drop `gadgetzone-mobile-390.svg` to get the 390px Mobile frame.
-   - Drag and drop `gadgetzone-components-library.svg` to get the Master Components & Design Tokens sheet.
-2. **Tokens Studio / Figma Variables**:
-   - Import `tokens.json` from [`figma_export/`](./figma_export/) via the **Tokens Studio for Figma** plugin or Figma Local Variables to bind all colors, font scales, and 8pt spacing styles.
-3. For detailed upload instructions, see [**FIGMA_UPLOAD_GUIDE.md**](./figma_export/FIGMA_UPLOAD_GUIDE.md).
-
----
-
-## 📤 How to Push to GitHub
-
-To publish this project to your GitHub account:
-
-```bash
-# 1. Initialize git repository
-git init
-
-# 2. Stage all project files (including assets and PNGs)
-git add .
-
-# 3. Commit changes
-git commit -m "feat: complete GadgetZone e-commerce landing page & Figma design system"
-
-# 4. Set main branch
-git branch -M main
-
-# 5. Add your remote GitHub repository URL
-git remote add origin https://github.com/<your-username>/GadgetZone-Landing-Page.git
-
-# 6. Push to GitHub
-git push -u origin main
-```
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE) – feel free to use it for educational, personal, or commercial portfolio presentations.
-
-<div align="center">
-  <b>Designed &amp; Engineered with ❤️ for GadgetZone</b>
-</div>
+https://www.figma.com/design/9NqCQaQHbmgDd3uZk90lG4/figma-gadgets?m=auto&t=ySuFQLjMQm84o2wd-6
