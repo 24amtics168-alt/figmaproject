@@ -39,9 +39,7 @@
 - [Reusable Figma Components](#-reusable-figma-components)
 - [Website Sections Breakdown](#-website-sections-breakdown)
 - [Project Structure](#-project-structure)
-- [How to Run Locally](#-how-to-run-locally)
-- [How to Push to GitHub](#-how-to-push-to-github)
-- [License](#-license)
+- [Figma Design link](#-Figma-Design-link)
 
 ---
 
