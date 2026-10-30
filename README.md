@@ -198,9 +198,9 @@ The platform provides an engaging online shopping experience, rapid product disc
 ## 📁 Project Structure
 
 ```
-GadgetZone-Landing-Page/
+figmaproject/
 ├── assets/
-│   ├── showcase.png               # Desktop & mobile side-by-side presentation mockup
+│   ├── showcase.png               # Desktop & mobile presentation mockup
 │   ├── desktop.png                # Full 1440px desktop landing page PNG render
 │   ├── mobile.png                 # Full 390px mobile landing page PNG render
 │   └── components.png             # Figma component library & design tokens sheet
@@ -210,30 +210,21 @@ GadgetZone-Landing-Page/
 │   ├── gadgetzone-components-library.svg # Master component sheet for Figma
 │   ├── tokens.json                # W3C Design Tokens JSON for Tokens Studio / Variables
 │   └── FIGMA_UPLOAD_GUIDE.md      # Step-by-step Figma upload instructions
-├── index.html                     # Live responsive landing page with frame switcher
-├── styles.css                     # Complete design system CSS & animations
-├── app.js                         # Cart drawer, search modal & interaction logic
-└── README.md                      # GitHub documentation
+└── README.md                      # Project documentation & visual showcase
 ```
 
 ---
 
-## 🛠️ How to Run Locally
+## 🎨 How to Use in Figma
 
-You can preview the interactive landing page locally in your browser:
-
-### Option 1: Direct File Open
-```bash
-open index.html
-```
-
-### Option 2: Local Python Server
-```bash
-python3 -m http.server 3000
-```
-Open **`http://localhost:3000`** in your browser.
-
-> **Interactive Device Switcher**: Use the toolbar at the top of the webpage to toggle between **Desktop (1440px)**, **Mobile (390px)**, and **Fluid (100%)** views, toggle the **Figma Auto Layout Grid**, and inspect design tokens in real time.
+1. **Direct Drag & Drop**:
+   - Open [Figma](https://figma.com) and create a new design file.
+   - Drag and drop `gadgetzone-desktop-1440.svg` from [`figma_export/`](./figma_export/) onto the canvas to get the full 1440px Desktop frame.
+   - Drag and drop `gadgetzone-mobile-390.svg` to get the 390px Mobile frame.
+   - Drag and drop `gadgetzone-components-library.svg` to get the Master Components & Design Tokens sheet.
+2. **Tokens Studio / Figma Variables**:
+   - Import `tokens.json` from [`figma_export/`](./figma_export/) via the **Tokens Studio for Figma** plugin or Figma Local Variables to bind all colors, font scales, and 8pt spacing styles.
+3. For detailed upload instructions, see [**FIGMA_UPLOAD_GUIDE.md**](./figma_export/FIGMA_UPLOAD_GUIDE.md).
 
 ---
 
